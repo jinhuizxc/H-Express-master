@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标准颜色-->
+    <color name="red">#ff4444</color><!--夜间为暗红色-->
+    <color name="blue">#0000FF</color>
+    <color name="black">#000000</color><!--夜间黑色即为灰色-->
+    <color name="whitetext">#FFFFFF</color><!--夜间白色即为白色-->
+    <color name="whitebg">#6C6C6C</color><!--夜间白色背景即为深灰色-->
+    <color name="lv_click_color">#77AAAAAA</color>
+
+    <color name="blue_sky">#87CEEB</color><!--天蓝色-->
+    <color name="blue_daoqi">#1E90FF</color><!--道奇蓝-->
+
+    <!--toolbar夜间颜色-->
+    <color name="colorPrimary">#293134</color><!--深灰色-->
+    <color name="colorPrimaryDark">#565656</color>
+    <color name="colorAccent">#B7B7B7</color>
+
+    <!--底部点击颜色-->
+    <color name="bottom_click">#176ce3</color>
+    <color name="bottom_normal">#707070</color>
+
+    <color name="line_1">#F5F5F5</color><!--近乎白色浅灰-->
+    <color name="line_2">#DCDCDC</color><!--浅灰2-->
+    <color name="line_3">#D3D3D3</color><!--浅灰3-->
+    <color name="line_4">#E8E8E8</color><!--银灰4-->
+    <color name="line_5">#FFFFFF</color><!--深灰4  夜间近乎白色-->
+
+</resources>

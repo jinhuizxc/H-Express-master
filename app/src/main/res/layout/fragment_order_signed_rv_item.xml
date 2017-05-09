@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_fragment_order_signed"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/whitebg">
+
+    <CheckBox
+    android:id="@+id/cb_fragment_order_signed_select"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="-35dp"
+    android:button="@drawable/checkbox_bg_shape"/>
+
+    <ImageView
+        android:id="@+id/iv_fragment_order_signed_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/cb_fragment_order_signed_select"
+        android:src="@mipmap/bottom_home_click"/>
+
+    <TextView
+        android:id="@+id/tv_fragment_order_signed_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_fragment_order_signed_image"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="未签收"/>
+
+    <TextView
+        android:id="@+id/tv_fragment_order_signed_com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_fragment_order_signed_image"
+        android:layout_below="@+id/tv_fragment_order_signed_state"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="@color/black"
+        android:text="圆通"/>
+
+    <TextView
+        android:id="@+id/tv_fragment_order_signed_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_fragment_order_signed_image"
+        android:layout_below="@+id/tv_fragment_order_signed_com"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="@color/black"
+        android:text="12345678945617"/>
+
+    <TextView
+        android:id="@+id/tv_fragment_order_signed_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="2017-01-12"
+        android:layout_above="@+id/iv_fragment_order_signed_image"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+<LinearLayout
+    android:id="@+id/ll_fragment_order_signed_arrow"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:layout_alignParentRight="true">
+    <ImageView
+        android:id="@+id/iv_fragment_order_signed_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/arrow"/>
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_alignParentBottom="true"
+    android:layout_toRightOf="@+id/iv_fragment_order_signed_image"
+    android:background="@color/line_3">
+
+</View>
+</RelativeLayout>

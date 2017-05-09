@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">H-Express</string>
+
+
+    <!--bottom-->
+    <string name="home">首页</string>
+    <string name="order">订单</string>
+    <string name="send">寄快递</string>
+    <string name="me">我的</string>
+
+
+    <!--left-->
+    <string name="suggest">意见反馈</string>
+    <string name="share">分享</string>
+    <string name="about">关于</string>
+    <string name="loginout">退出</string>
+    <string name="personqq">本人QQ:1003077897</string>
+
+    <string name="share_title">H-Express Open source</string>
+    <string name="share_summary">一款仿 快递100 的APP,点击即可查看源码,协议开源，欢迎 star</string>
+    <string name="share_target_url">https://github.com/qht1003077897/H-Express</string>
+    <string name="share_image_url">http://img.blog.csdn.net/20170504170212518?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjUzNDgzMQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast</string>
+    <string name="share_appname">H-Express</string>
+
+
+    <!--toorbar内容-->
+    <string name="toorbar_backhome">回到首页</string>
+    <string name="toorbar_scale">扫一扫</string>
+
+    <!--空view重试按钮-->
+    <string name="empty_rebtn">重试</string>
+
+    <!--ViewPage指示器-->
+    <array name="FragmentTwo_viewpage_titles">
+        <item>全部</item>
+        <item>已签收</item>
+        <item>未签收</item>
+    </array>
+
+    <array name="FragmentThree_viewpage_titles">
+        <item>网点</item>
+        <item>订单</item>
+        <item>客服</item>
+    </array>
+    <string name="ordernum">快递单号：</string>
+
+
+    <!--setting-->
+    <string name="clear_imagecache">清除缓存</string>
+    <string name="commonaddress">常用地址</string>
+    <string name="cachesize">0.0M</string>
+
+
+    <string name="suggestback">本人QQ:1003077897 \n\n微信:q2mAor \n\n\n欢迎提出宝贵意见</string>
+    <string name="license">MIT License
+
+Copyright (c) 2016-2018 qht1003077897 \n
+        \n
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</string>
+</resources>
